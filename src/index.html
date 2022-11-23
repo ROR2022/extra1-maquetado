@@ -14,8 +14,8 @@
     />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+    <header class="body__header bg-white">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand fs-1 fw-bold" href="#">W.</a>
 
@@ -72,10 +72,43 @@
       </nav>
     </header>
 
-    <main class="border">Aqui va el main</main>
+    <main class=" row border bg-light">
+
+      <section class="col-sm-12 col-lg-8 primera border h-75">
+
+        <img class="d-none d-lg-block w-100 h-50" src="../img/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+        <img class="d-lg-none w-100 h-50 p-3" src="../img/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+
+        <div class="main__section--text p-3 d-lg-flex">
+
+          <h1 class="fw-bold display-4">The Bright Future of Web 3.0?</h1>
+
+          <div class="section__text--subtext">
+            <p class="text-secondary">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button class="btn btn-danger">Read more</button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="col-sm-12 col-lg-4 segunda border bg-dark p-4">
+        <h2 class="text-warning fs-1 fw-bold">New</h2>
+        <h3 class="text-white">Hydrogen VS Electric Cars</h3>
+        <p class="text-secondary">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr class="text-white">
+        <h3 class="text-white">The Downsides of AI Artistry</h3>
+        <p class="text-secondary">What are the possible adverse effects of on-demand AI image generation?</p>
+        <hr class="text-white">
+        <h3 class="text-white">Is VC Funding Drying Up?</h3>
+        <p class="text-secondary">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+
+    </main>
 
     <footer
-      class=" d-flex flex-column flex-lg-row justify-content-lg-around"
+      class="body__footer d-flex flex-column flex-lg-row justify-content-lg-around bg-white"
     >
       <div class="tarjeta1 d-flex m-3">
         <img class="m-3" src="../img/image-retro-pcs.jpg" alt="IMAGEN" />
